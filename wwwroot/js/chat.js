@@ -28,7 +28,7 @@ document.getElementById("sendButton").addEventListener("click", function (event)
     event.preventDefault();
 });
 
-//This code:
+//What this code does:
 //  Creates and starts a connection.
 //  Adds to the submit button a handler that sends messages to the hub.
 //  Adds to the connection object a handler that receives messages from the hub and adds them to the list.
